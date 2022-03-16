@@ -12,7 +12,7 @@ public class DbHelper {
 	public static Connection connDb() {
 		if(c==null) {
 			try {
-				c=DriverManager.getConnection("jdbc:mysql://localhost:3306/gts?user=root&password=hasma12345");
+				c=DriverManager.getConnection("jdbc:mysql://localhost:3306/gts?user=root&password=******");
 				
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
